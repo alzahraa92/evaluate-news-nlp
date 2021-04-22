@@ -1,0 +1,111 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+    height: 70px;
+}
+.submit {
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    background: #c28866;
+    color: #4d3325;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 4px 5px #444;
+    border:none;
+    border-radius: 5px;
+    width: 100%;
+}
+/*output table*/
+.section
+{
+    display: block;
+}
+strong
+{
+    font-size: 2pc;
+    padding: 5pt;
+    margin: 10px;
+    font-style: italic;
+    position: relative;
+}
+#entryHolder
+{
+    background-color: #f0ab83;
+    padding: 10px;
+    margin: 10px 60px 10px 10px;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    height: 80%;
+    
+}
+#text 
+{
+    margin: 2px;
+    padding: 2px;
+    width: 20pc;
+} 
+#agreement 
+{
+    margin: 2px;
+    padding: 2px;
+    width: 20pc;
+} 
+#subjectivity 
+{
+    margin: 2px;
+    padding: 2px;
+    width: 20pc;
+} 
+#confidence 
+{
+    margin: 2px;
+    padding: 2px;
+    width: 20pc;
+} 
+#irony 
+{
+    margin: 2px;
+    padding: 2px;
+    width: 20pc;
+} 
+#score_tag 
+{
+    margin: 2px;
+    padding: 2px;
+    width: 20pc;
+} 
+ /* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: black; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: black; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: black; 
+    font-family: 'Oswald', sans-serif;
+
+} 

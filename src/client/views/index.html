@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Test</title>
+    <script src="https://kit.fontawesome.com/a83dba7890.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title">
+            👋 Hello World!
+        </h1>
+        <div class="header">
+            Evaluate a News Article with Natural Language Processing
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form id="section1">
+                <input id="name" type="url" value="" placeholder="Enter URL">
+                <input class="submit" id="submit" type="submit" onclick="return Client.handleSubmit(event)">
+            </form>
+        </section>
+
+        <section class="section">
+            <strong>Form Results:</strong>
+            <div id="entryHolder">
+                <div id="agreement">agreement:</div>
+                <div id="subjectivity">subjectivity:</div>
+                <div id="confidence">confidence:</div>
+                <div id="irony">irony:</div>
+                <div id="score_tag">score_tag:</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © :Alzahraa</p>
+    </footer>
+    <!-- <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script> -->
+</body>
+
+</html>

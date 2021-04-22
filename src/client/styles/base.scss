@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#f0ab83 ;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+section::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 44%;
+    height: 2px;
+    width: 40px;
+    background: #f0ab83;
+  }
