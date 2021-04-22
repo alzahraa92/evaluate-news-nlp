@@ -1,8 +1,8 @@
 # evaluate-news-nlp
-* ## Introduction
-* ## Tools
-* ## screenShoot
-# Introduction 
+* # Introduction
+* # Tools
+* # screenShoot
+## Introduction 
 to Natural Language Processing
 NLP is a subset of AI that provides computers ability to process or interact with natural human speech. In NLP, machine learning and deep learning are used on massive amounts of data to obtain the rules and understanding of nuance in human speech.
 
@@ -13,7 +13,7 @@ NLP on Text
 An example is Grammarly editing tool, which parses the text that you write, and suggests if the tone is professional or not. Another example is the Smart Compose feature for Gmail that uses NLP to suggest words and statements based on your current context.
  use webpack package
 
-# Tools
+## Tools
 1- html 
 2- css 
 3- sass
@@ -23,5 +23,5 @@ An example is Grammarly editing tool, which parses the text that you write, and 
 7- babel
 8- jest 
 
-# screenShoot
+## screenShoot
 ![Website screenshot](./screenshot/screenshot.png)
