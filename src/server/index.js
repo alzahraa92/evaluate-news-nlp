@@ -29,8 +29,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('dist'));
 console.log(__dirname)
 app.get('/', function(req, res) {
-    //    res.sendFile('dist/index.html')
-    res.sendFile(path.resolve('src/client/views/index.html'))
+    // path.resolve('src/client/views/index.html')
+    res.sendFile(res.sendFile('dist/index.html'))
 });
 app.post('/data', function(req, res) {
     const form = new FormData();
